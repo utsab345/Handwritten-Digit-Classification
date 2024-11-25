@@ -33,4 +33,21 @@ Each image is grayscale and has a size of 28x28 pixels.
 3. Model Architecture:
    ```bash
    Utilizes Dense and Flatten layers for classification.
+4. Visualization
+   ```bash
+   Displays digit samples using Matplotlib.
 
+## Usage
+1. Run the script:
+   ```bash
+   python main.py
+2. The model will:
+- Load and preprocess the dataset.
+- Train a neural network.
+- Display a sample image.
+- Evaluate performance on the test set.
+
+## Future Work
+- Add CNN layers for better accuracy.
+- Experiment with data augmentation techniques.
+- Implement deployment using FastAPI.
